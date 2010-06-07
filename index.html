@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <script src="jquery-1.4.2.js"></script>
+    <script src="json2.js"></script>
+    <script src="riak.js"></script>
+    <script src="riak-jscouch.js"></script>
+  </head>
+  <body>
+
+    <h1>JSCouch examples done with Riak</h1>
+    <p>
+    I wanted to experiment with using MapReduce on <a href="http://riak.basho.com/">Riak</a>,
+    and I found the JSCouch examples to be an excellent learning tool
+    for learning how to do MapReduce for CouchDB (using client-side
+    JavaScript only).
+    </p>
+
+    <p><a href="http://labs.mudynamics.com/wp-content/uploads/2009/04/icouch.html">http://labs.mudynamics.com/wp-content/uploads/2009/04/icouch.html</a></p>
+
+    <p><a href="jscouch.html">Local Copy</a></p>
+
+    <p>
+    So, as a learning exercise, I tried to re-implement the same
+    basic queries, but using Riak.  
+    I used the official JavaScript/jQuery client library from the Riak
+    source code (in client_lib/javascript).
+    </p>
+
+    <p>
+    This web page assumes that you followed the instructions in the
+    README and are accessing this via
+    <a href="http://127.0.0.1:8098/riak/riak-jscouch/index.html">http://127.0.0.1:8098/riak/riak-jscouch/index.html</a>
+    </p>
+
+    <p>
+    Click on the following links to execute the queries against this
+    local Riak instance.  View the results of each action in the Results
+    section below.
+    </p>
+    
+    <h2>Actions</h2>
+    <ul>
+      <li><a href="#" id="insertData">Insert Data</a></li>
+      <li><a href="#" id="allPictures">All Pictures</a></li>
+      <li><a href="#" id="sortPicturesByUser">Sort Pictures By User</a></li>
+      <li><a href="#" id="sortPicturesByDate">Sort Pictures By Date</a></li>
+      <li><a href="#" id="totalSizeOfAllImages">Total Size of All Images</a></li>
+      <li><a href="#" id="countPicturesByUser">Count Pictures By User</a></li>
+      <li><a href="#" id="countPicturesByHour">Count Pictures By Hour</a></li>
+      <li><a href="#" id="minWidthAndHeight">Compute Minimum Width and Height</a></li>
+      <li><a href="#" id="minAndMaxWidthAndHeight">Compute Minimum and Maximum Width and Height</a></li>
+      <li><a href="#" id="uniqueCamerasForAUser1">Unique Cameras for a User (attempt #1)</a></li>
+      <li><a href="#" id="uniqueCamerasForAUser2">Unique Cameras for a User (attempt #2)</a></li>
+    </ul>
+
+    <h2>Results</h2>
+    <div id="results">Click on "Actions" links above. Results will show here.</div>
+
+    <h2>More info</h2>
+    <ul>
+      <li><a href="http://github.com/jpick/riak-jscouch">http://github.com/jpick/riak-jscouch</a></li>
+      <li><a href="http://jimpick.com/">http://jimpick.com/</a></li>
+    </ul>
+
+  </body>
+</html>
+

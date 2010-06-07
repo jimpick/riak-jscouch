@@ -1,0 +1,47 @@
+JSCouch examples done with Riak
+===============================
+
+I wanted to experiment with using MapReduce on Riak, and I
+found the JSCouch examples to be an excellent learning tool
+for learning how to do MapReduce for CouchDB (using client-side
+JavaScript only).
+
+http://labs.mudynamics.com/wp-content/uploads/2009/04/icouch.html
+
+So, as a learning exercise, I tried to re-implement the same
+basic queries, but using Riak.
+
+I used the official JavaScript/jQuery client library from the Riak
+source code (in client_lib/javascript).
+
+I've included files from jQuery, Riak, and JSCouch, all licensed
+under their respective licenses. The stuff I created is released
+into the Public Domain.
+
+To run:
+
+1) Make sure Riak is running at 127.0.0.1:8098
+
+2) Then run
+
+	./setup.sh
+
+   This will populate Riak with the riak-jscouch files.
+
+3) Point your web browser at:
+
+   http://127.0.0.1:8098/riak/riak-jscouch/index.html
+
+   From here, you can try out the original JSCouch, and then
+   try the equivalent queries on Riak.
+
+Note: This was just a learning exercise, and I do not possess a
+complete knowledge of the correct way to do things Riak-style, so
+I may not have built the queries in the best or most correct way.
+If you see something I did wrong, or that could be done better,
+send an email to jim@jimpick.com or @jimpick on twitter or identica.
+
+Cheers,
+
+ - Jim
+
