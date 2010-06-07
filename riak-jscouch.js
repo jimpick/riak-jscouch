@@ -237,7 +237,8 @@ $(function(){
         language: 'javascript',
         source: function(value, arg) {
           var userCounts = {};
-          for each (var picture in value) {
+          for (var i in value) {
+            var picture = value[i];
             var user = picture[0];
             var count = picture[1];
             userCounts[user] = (userCounts[user] || 0) + count;
@@ -280,7 +281,8 @@ $(function(){
         language: 'javascript',
         source: function(value, arg) {
           var hourCounts = {};
-          for each (var picture in value) {
+          for (var i in value) {
+            var picture = value[i];
             var hour = picture[0];
             var count = picture[1];
             hourCounts[hour] += (hourCounts[hour] || 0) + count;
@@ -324,7 +326,8 @@ $(function(){
         language: 'javascript',
         source: function(value, arg) {
           var propertyMinimums = {};
-          for each (var metric in value) {
+          for (var i in value) {
+            var metric = value[i];
             var property = metric[0];
             var measurement = metric[1];
             if (property in propertyMinimums) {
@@ -374,7 +377,8 @@ $(function(){
         language: 'javascript',
         source: function(value, arg) {
           var propertyMinMax = {};
-          for each (var metric in value) {
+          for (var i in value) {
+            var metric = value[i];
             var property = metric[0];
             var min = metric[1].min;
             var max = metric[1].max;
@@ -431,7 +435,8 @@ $(function(){
         language: 'javascript',
         source: function(mappedUserCameras, arg) {
           var userCameras = {};
-          for each (var mappedUserCamera in mappedUserCameras) {
+          for (var i in mappedUserCameras) {
+            var mappedUserCamera = mappedUserCameras[i];
             var userName = mappedUserCamera[0];
             var cameras = mappedUserCamera[1];
             if (userName in userCameras) {
@@ -482,7 +487,8 @@ $(function(){
         language: 'javascript',
         source: function(value, arg) {
           var userCameraCounts = {};
-          for each (var picture in value) {
+          for (var i in value) {
+            var picture = value[i];
             var userCamera = JSON.stringify(picture[0]);
             var count = picture[1];
             userCameraCounts[userCamera] =
