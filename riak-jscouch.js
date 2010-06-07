@@ -111,12 +111,12 @@ $(function(){
       mapPhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
-          JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          /* "Flag:\n" + 
+          JSON.stringify(flag,null,2) + "\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -142,12 +142,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
+          /* "Flag:\n" + 
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -179,12 +179,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
+          /* "Flag:\n" + 
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -210,12 +210,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
+          /* "Flag:\n" + 
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -254,12 +254,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
+          /* "Flag:\n" + 
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -298,12 +298,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
+          /* "Flag:\n" + 
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -349,12 +349,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" + 
-          "Flag:\n" + 
+          /* "Flag:\n" + 
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" + 
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" + 
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" + 
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -406,12 +406,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" +
-          "Flag:\n" +
+          /* "Flag:\n" +
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" +
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" +
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" +
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -460,12 +460,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" +
-          "Flag:\n" +
+          /* "Flag:\n" +
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" +
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" +
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" +
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
@@ -505,12 +505,12 @@ $(function(){
       reducePhase.run(function(flag, results, req) {
         $('#results').html(
           "<pre>\n" +
-          "Flag:\n" +
+          /* "Flag:\n" +
           JSON.stringify(flag,null,2) + "\n" +
-          "Results:\n" +
+          "Results:\n" + */
           JSON.stringify(results,null,2) + "\n" +
-          "Request:\n" +
-          JSON.stringify(req,null,2) + "\n" +
+          /* "Request:\n" +
+          JSON.stringify(req,null,2) + "\n" + */
           "</pre>"
         );
       });
